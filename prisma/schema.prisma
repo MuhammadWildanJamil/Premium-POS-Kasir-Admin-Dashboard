@@ -1,0 +1,37 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("mysql://root:@localhost:3306/wil's_coffeeshopdb")
+}
+
+// Tabel Kategori (misal: Espresso Based, Non-Coffee, Snack)
+model Category {
+  id        Int       @id @default(autoincrement())
+  name      String
+  products  Product[] // Relasi 1-ke-banyak dengan tabel Product
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+// Tabel Produk/Menu
+model Product {
+  id          Int      @id @default(autoincrement())
+  name        String
+  description String?
+  price       Int      // Menggunakan Int lebih aman untuk mata uang Rupiah
+  stock       Int      @default(0)
+  categoryId  Int
+  category    Category @relation(fields: [categoryId], references: [id])
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

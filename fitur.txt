@@ -1,0 +1,39 @@
+🚀 Premium Coffee Shop POS & Admin Dashboard Template
+Sistem Kasir (Point of Sale) Modern Berbasis Web Lengkap dengan Back-Office Admin. Siap Pakai, Siap Jual, dan Mudah Dikustomisasi!
+
+Sistem POS ini dirancang dengan UI/UX sekelas aplikasi SaaS profesional, sangat cocok untuk bisnis F&B modern seperti Coffee Shop, Kafe, Restoran, maupun Franchise. Dibangun menggunakan teknologi terkini (React.js, TypeScript, Tailwind CSS, Node.js, Express, dan MySQL), template ini menawarkan performa super cepat dan kode yang sangat rapi (clean code).
+
+🌟 FITUR UTAMA (KEY FEATURES)
+🧑‍🍳 1. Aplikasi Kasir (Frontend POS)
+Sistem Login PIN Otentik: Keamanan terjamin. Setiap kasir memiliki PIN unik (6-digit) untuk masuk ke sistem, mencegah akses tidak sah dan melacak transaksi berdasarkan nama kasir yang bertugas.
+Antarmuka Kasir Interaktif (Grid Menu): Tampilan daftar menu berbasis kartu (card-based) dengan visual yang bersih. Dilengkapi fitur filter berdasarkan kategori dan kolom pencarian instan (real-time search).
+Smart Stock Management: Validasi stok cerdas. Mencegah kasir menambahkan pesanan jika stok habis, dan memberikan indikator visual "SISA STOK" atau "HABIS" pada kartu menu secara otomatis.
+Keranjang Belanja Dinamis: Mudah menyesuaikan kuantitas (+ / -), menghapus item, dan perhitungan Subtotal secara real-time.
+Multi-Payment & Kalkulator Kembalian: Mendukung pembayaran Cash, QRIS, dan Mesin EDC (Kartu). Otomatis menghitung uang kembalian untuk pembayaran tunai agar kasir tidak salah hitung.
+Fitur Diskon & Pajak Dinamis: Input diskon dalam nominal Rupiah dan perhitungan Pajak (PPN/PB1) yang otomatis ditambahkan ke total akhir.
+Tipe Pesanan & Catatan Spesifik: Memilih opsi Dine In (Makan di Tempat) atau Take Away (Bawa Pulang), serta input catatan khusus per pesanan (Misal: Less sugar, extra ice).
+Integrasi Printer Thermal Hardware (RawBT): Mendukung pencetakan struk langsung ke Printer Thermal Bluetooth/USB via aplikasi Android RawBT. Juga mendukung format cetak standar browser/PDF untuk pengguna PC/Laptop.
+
+⚙️ 2. Back-Office Admin (Dashboard Manajerial)
+Dashboard Analitik Penjualan: Ringkasan total pendapatan, total transaksi, dan grafik batang interaktif untuk memantau tren penjualan bulanan.
+Laporan Fleksibel: Filter data transaksi berdasarkan rentang waktu: Hari Ini, 7 Hari Terakhir, Bulan Ini, atau Semua Waktu.
+Manajemen Menu & Kategori (CRUD): Tambah, ubah, dan hapus menu beserta harganya. Atur kategori menu agar rapi di layar kasir.
+Manajemen Pegawai (Users): Buat akun khusus untuk kasir baru dan atur PIN rahasia mereka langsung dari dashboard.
+Pengaturan Toko Dinamis (Store Settings): Ubah Nama Kafe, Alamat (untuk kop struk), dan persentase pajak (Misal: 10% atau 11%) kapan saja tanpa perlu menyentuh source code.
+
+💎 KEUNGGULAN TEMPLATE INI (WHY BUY THIS TEMPLATE?)
+UI/UX Premium & Estetik: Didesain dengan sangat hati-hati menggunakan Tailwind CSS. Dilengkapi efek hover, bayangan lembut (soft shadows), animasi transisi, dan glassmorphism yang membuatnya terlihat mahal.
+Clean Code & TypeScript Ready: Ditulis sepenuhnya dengan TypeScript. Kode sangat terstruktur, type-safe, dan minim bugs, membuatnya sangat mudah dipahami dan dikembangkan lebih lanjut oleh developer lain.
+Hardware & Production Ready: Bukan sekadar UI. Fitur cetak struk sudah diatur ukuran kertasnya (Thermal 80mm / 58mm), dan siap disambungkan ke laci kasir (Cash Drawer) dan printer Bluetooth/USB.
+Database Teroptimasi (Raw SQL Pool): Menggunakan koneksi connection pooling dan metode database transaction murni, memastikan tidak ada data yang corrupt (rusak) jika transaksi gagal di tengah jalan.
+Tanpa Biaya Langganan Pihak Ketiga: Template ini 100% milik Anda (self-hosted). Tidak perlu bayar bulanan ke platform POS seperti Mka atau Mjoo.
+
+🛠️ TEKNOLOGI YANG DIGUNAKAN (TECH STACK)
+Frontend: React.js, TypeScript, Vite, Tailwind CSS, React Router DOM.
+Backend: Node.js, Express.js, TypeScript, CORS.
+Database: MySQL / MariaDB (Query SQL Murni dengan modul mysql2/promise).
+
+🎯 COCOK UNTUK:
+Software House / Freelancer yang ingin menjual solusi POS ke klien UMKM.
+Pemilik bisnis Coffee Shop, Kedai Kopi, Restoran, atau Food Truck / F&B yang ingin memiliki sistem kasir mandiri.
+Bahan ajar atau proyek tugas akhir/skripsi IT yang membutuhkan referensi kode berkualitas industri.
